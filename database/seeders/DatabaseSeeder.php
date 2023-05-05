@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             MerchantSeeder::class,
             IngredientSeeder::class,
+            ProductSeeder::class,
         ]);
     }
 }
