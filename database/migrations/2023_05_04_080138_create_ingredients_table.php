@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('ingredients', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->unsignedInteger('quantity');
+            $table->unsignedInteger('stock');
             $table->foreignId('merchant_id')->constrained();
             $table->timestamps();
         });

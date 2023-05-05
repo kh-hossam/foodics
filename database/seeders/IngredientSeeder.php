@@ -15,18 +15,21 @@ class IngredientSeeder extends Seeder
     {
         $initialIngredientsData = [
             [
+                'id' => 1,
                 'name' => 'Beef',
-                'quantity' => 20 * 1000,
+                'stock' => 20 * 1000,
                 'merchant_id' => 1,
             ],
             [
+                'id' => 2,
                 'name' => 'Cheese',
-                'quantity' => 5 * 1000,
+                'stock' => 5 * 1000,
                 'merchant_id' => 2,
             ],
             [
+                'id' => 3,
                 'name' => 'Onion',
-                'quantity' => 1 * 1000,
+                'stock' => 1 * 1000,
                 'merchant_id' => 3,
             ]
         ];
