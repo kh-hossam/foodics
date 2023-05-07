@@ -17,20 +17,26 @@ class IngredientSeeder extends Seeder
             [
                 'id' => 1,
                 'name' => 'Beef',
-                'stock' => 20 * 1000,
+                'original_stock' => 20 * 1000,
+                'current_stock' => 20 * 1000,
                 'merchant_id' => 1,
+                'is_merchant_notified' => false,
             ],
             [
                 'id' => 2,
                 'name' => 'Cheese',
-                'stock' => 5 * 1000,
+                'original_stock' => 5 * 1000,
+                'current_stock' => 5 * 1000,
                 'merchant_id' => 2,
+                'is_merchant_notified' => false,
             ],
             [
                 'id' => 3,
                 'name' => 'Onion',
-                'stock' => 1 * 1000,
+                'original_stock' => 1 * 1000,
+                'current_stock' => 1 * 1000,
                 'merchant_id' => 3,
+                'is_merchant_notified' => false,
             ]
         ];
 

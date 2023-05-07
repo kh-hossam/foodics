@@ -14,8 +14,10 @@ return new class extends Migration
         Schema::create('ingredients', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->unsignedInteger('stock');
+            $table->unsignedInteger('original_stock');
+            $table->unsignedInteger('current_stock');
             $table->foreignId('merchant_id')->constrained();
+            $table->boolean('is_merchant_notified');
             $table->timestamps();
         });
     }
