@@ -60,10 +60,10 @@ The main components of the application are:
 
 - `app/Http/Controllers/OrderController` - The controller responsible for handling order creation requests
 - `app/Http/Requests/StoreOrderRequest` - The request validation class for validating the order creation request
-- `app/Mail/LowIngredientStock` - The email notification sent to the restaurant owner when an ingredient falls below a certain threshold
+- `app/Mail/LowIngredientStock` - The email notification sent to the ingredient merchant when an ingredient falls below a certain threshold
 - `app/Services/OrderService` - The service class that encapsulates the business logic for creating an order
 - `database` - The directory that contains the database migration, factory, and seeder files
-- `routes/api` - The directory that contains the API routes
+- `routes/api` - API routes
 - `tests/Features/OrderTest` - The feature test class that tests the common scenarios for creating an order
 
 ## APIs
